@@ -1,0 +1,15 @@
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\bin\Debug\net8.0\lab1.5.exe
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\bin\Debug\net8.0\lab1.5.deps.json
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\bin\Debug\net8.0\lab1.5.runtimeconfig.json
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\bin\Debug\net8.0\lab1.5.dll
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\bin\Debug\net8.0\lab1.5.pdb
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.AssemblyInfoInputs.cache
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.AssemblyInfo.cs
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.csproj.CoreCompileInputs.cache
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.sourcelink.json
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.dll
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\refint\lab1.5.dll
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.pdb
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\lab1.5.genruntimeconfig.cache
+C:\Users\mr gino\Desktop\c#labs\lab1\lab1.5\obj\Debug\net8.0\ref\lab1.5.dll
