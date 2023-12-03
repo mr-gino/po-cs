@@ -1,0 +1,15 @@
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\bin\Debug\net8.0\lab2.2.exe
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\bin\Debug\net8.0\lab2.2.deps.json
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\bin\Debug\net8.0\lab2.2.runtimeconfig.json
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\bin\Debug\net8.0\lab2.2.dll
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\bin\Debug\net8.0\lab2.2.pdb
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.AssemblyInfoInputs.cache
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.AssemblyInfo.cs
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.csproj.CoreCompileInputs.cache
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.sourcelink.json
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.dll
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\refint\lab2.2.dll
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.pdb
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\lab2.2.genruntimeconfig.cache
+C:\Users\mr gino\Desktop\c#labs\lab2\lab2.2\obj\Debug\net8.0\ref\lab2.2.dll
