@@ -9,28 +9,27 @@ Person[] people = new Person[] {
 
 
 Person[] authors = new Person[] {
-    new Person("Autor 1","Autor 1"),
-    new Person("Autor 2","Nowak"),
-    new Person("Autor 3","Kowalski"),
-    new Person("Autor 4","Nowakowska")
+    new Person("Adam","Malysz"),
+    new Person("Mikolaj","Kopernik"),
+    new Person("Juliusz","Slowacki"),
+    new Person("Adam","Mickiewicz")
 };
 
 Book[] books = new Book[] {
-    new Book("Tytul 1",authors[0], new DateTime(1999,05,06)),
-    new Book("Tytul 2",authors[1], new DateTime(2023,04,23)),
-    new Book("Tytul 3",authors[2], new DateTime(2021,01,30)),
-    new Book("Tytul 4",authors[3], new DateTime(2000,07,07)),
+    new Book("100 DELMATYNCZYKOW",authors[0], new DateTime(1999,05,06)),
+    new Book("MAIN KAMPF",authors[1], new DateTime(2023,04,23)),
+    new Book("W PUSTYNI I W PUSZCZY",authors[2], new DateTime(2021,01,30)),
+    new Book("BIBLIA",authors[3], new DateTime(2000,07,07)),
 };
 
 Reader[] readers = new Reader[]
 {
-    new Reader("Czytelnik 1", "Czytelnik 1"),
-    new Reader("Czytelnik 2", "Czytelnik 2"),
-    new Reader("Czytelnik 3", "Czytelnik 3"),
-    new Reader("Czytelnik 4", "Czytelnik 4")
+    new Reader(people[0]),
+    new Reader(people[1]),
+    new Reader(people[2]),
+    new Reader(people[3])
 };
 
-// Przypisanie książek do tablic/list przeczytanych książek czytelników
 readers[0].ReadBooks = new Book[] { books[0], books[1] };
 readers[1].ReadBooks = new Book[] { books[1], books[3] };
 readers[2].ReadBooks = new Book[] { books[2], books[3] };

@@ -33,7 +33,7 @@ namespace ConsoleApp1
         }
         public void View2Atribut()
         {
-            Console.WriteLine($"Imie: {FirstName}\t\tnazwisko: {LastName}");
+            Console.WriteLine($"{FirstName} {LastName}");
         }
 
         public Person(string firstName, string lastName, int age)

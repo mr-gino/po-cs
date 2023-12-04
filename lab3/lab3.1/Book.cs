@@ -30,9 +30,9 @@ namespace ConsoleApp1
 
         public void View()
         {
-            Console.Write($"Tytul: {title} Autor: ");
+            Console.Write($"\tTytul: {title} Autor: ");
             author.View2Atribut();
-            Console.Write($" data publikacji: {datePublication.ToShortDateString()}\n");
+            Console.Write($"\t\tdata publikacji: {datePublication.ToShortDateString()}\n");
         }
     }
 }

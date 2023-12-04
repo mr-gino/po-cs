@@ -4,22 +4,22 @@ class Reader : Person
 {
     public Book[] ReadBooks { get; set; }
 
-    public Reader(string firstName, string lastName) : base(firstName, lastName)
+    public Reader(Person person) : base(person.FirstName, person.LastName, person.Age)
     {
     }
 
     public void ViewBooks()
     {
-        Console.WriteLine($"Przeczytane książki przez {FirstName} {LastName}:");
+        Console.WriteLine($"PRZECZYTANE KSIĄŻKI PRZEZ {FirstName} {LastName}:");
         foreach (Book book in ReadBooks)
         {
-            Console.WriteLine($"- {book.Title}");
+            book.View();
         }
     }
 
-    public void View()
+    public new void View()
     {
-        base.View2Atribut();
+        //base.View();
         ViewBooks();
         Console.WriteLine();
     }
