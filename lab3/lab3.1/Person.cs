@@ -26,7 +26,7 @@ namespace ConsoleApp1
 */
 
 
-        public void View()
+        public virtual void View()
         {
             Console.WriteLine($"Imie: {FirstName}\t\tnazwisko: {LastName}" +
                 $"\t\twiek: {Age}");

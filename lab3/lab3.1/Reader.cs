@@ -17,7 +17,7 @@ class Reader : Person
         }
     }
 
-    public new void View()
+    public override void View()
     {
         //base.View();
         ViewBooks();
