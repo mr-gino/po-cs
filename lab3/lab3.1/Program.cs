@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1;
+using lab3._1;
 
 Person[] people = new Person[] {
     new Person("Jan","Nowak",12),
@@ -35,6 +36,18 @@ readers[1].ReadBooks = new Book[] { books[1], books[3] };
 readers[2].ReadBooks = new Book[] { books[2], books[3] };
 readers[3].ReadBooks = new Book[] { books[0], books[2], books[3] };
 
+Reviewer[] reviewers = new Reviewer[]
+{
+                new Reviewer(readers[0]),
+                new Reviewer(readers[1])
+};
+
+readers[0].ReadBooks.Add(books[0]);
+readers[0].ReadBooks.Add(books[1]);
+
+readers[1].ReadBooks.Add(books[1]);
+readers[1].ReadBooks.Add(books[3]);
+
 Console.WriteLine("======= Osoby ==========");
 foreach (Person item in people)
 {
@@ -51,4 +64,10 @@ Console.WriteLine("\n\n======= Czytelnicy i ich przeczytane książki ==========
 foreach (Reader reader in readers)
 {
     reader.View();
+}
+
+Console.WriteLine("\n\n======= Recenzenci i ich recenzje ==========");
+foreach (Reviewer reviewer in reviewers)
+{
+    reviewer.Wypisz();
 }

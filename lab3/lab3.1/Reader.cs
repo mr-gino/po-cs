@@ -6,6 +6,7 @@ class Reader : Person
 
     public Reader(Person person) : base(person.FirstName, person.LastName, person.Age)
     {
+        ReadBooks = new Book[0];
     }
 
     public void ViewBooks()
