@@ -9,21 +9,35 @@ namespace ConsoleApp1
 
     class Person
     {
-        string firstName, lastName;
-        int age;
+        private string firstName, lastName;
+        private int age;
 
         //właściwości pól
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
 
-/*        public Person(string firstName, string lastName, int age)
+        public string FirstName
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.age = age;
+            get { return firstName; }
+            set { firstName = value; }
         }
-*/
+
+        public string LastName
+        {
+            get { return lastName; }
+            set { lastName = value; }
+        }
+
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        /*        public Person(string firstName, string lastName, int age)
+                {
+                    this.firstName = firstName;
+                    this.lastName = lastName;
+                    this.age = age;
+                }
+        */
 
 
         public virtual void View()
