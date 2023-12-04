@@ -9,8 +9,8 @@ namespace ConsoleApp1
     internal class Book
     {
         private string title;
-        public Person author { get; set; }
-        public DateTime datePublication { get; set; }
+        Person author { get; set; }
+        DateTime datePublication { get; set; }
 
         public string Title
         {

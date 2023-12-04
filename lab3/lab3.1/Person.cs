@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    
- class Person
+
+    class Person
     {
         string firstName, lastName;
         int age;
@@ -17,20 +17,22 @@ namespace ConsoleApp1
         public string LastName { get; set; }
         public int Age { get; set; }
 
-        //public Person(string firstName, string lastName, int age)
-        //{
-        //    this.firstName = firstName;
-        //    this.lastName = lastName;
-        //    this.age = age;
-        //}
+/*        public Person(string firstName, string lastName, int age)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+        }
+*/
 
 
-
-        public void View() {
+        public void View()
+        {
             Console.WriteLine($"Imie: {FirstName}\t\tnazwisko: {LastName}" +
                 $"\t\twiek: {Age}");
         }
-        public void View2Atribut() {
+        public void View2Atribut()
+        {
             Console.WriteLine($"Imie: {FirstName}\t\tnazwisko: {LastName}");
         }
 

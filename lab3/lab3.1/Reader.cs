@@ -1,22 +1,26 @@
 ﻿using ConsoleApp1;
 
-internal class Reader : Person
+class Reader : Person
 {
-    // Lista książek przeczytanych przez czytelnika
-    public List<Book> ReadBooks { get; set; }
+    public Book[] ReadBooks { get; set; }
 
-    public Reader(string firstName, string lastName, int age) : base(firstName, lastName, age)
+    public Reader(string firstName, string lastName) : base(firstName, lastName)
     {
-        ReadBooks = new List<Book>();
     }
 
-    // Metoda do wypisywania tytułów przeczytanych książek
     public void ViewBooks()
     {
-        Console.WriteLine($"{FirstName} {LastName}'s read books:");
-        foreach (var book in ReadBooks)
+        Console.WriteLine($"Przeczytane książki przez {FirstName} {LastName}:");
+        foreach (Book book in ReadBooks)
         {
-            Console.WriteLine($"{book.Title} by {book.author.FirstName} {book.author.LastName}");
+            Console.WriteLine($"- {book.Title}");
         }
+    }
+
+    public void View()
+    {
+        base.View2Atribut();
+        ViewBooks();
+        Console.WriteLine();
     }
 }
