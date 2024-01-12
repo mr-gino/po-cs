@@ -15,7 +15,7 @@ class Program
         kształty.Add(trójkąt);
         kształty.Add(koło);
 
-        foreach (var kształt in kształty)
+        foreach (Shape kształt in kształty)
         {
             kształt.Draw();
         }
