@@ -1,21 +1,22 @@
 ﻿using System.Formats.Asn1;
 using System.Globalization;
 using System.Data.SqlClient;
+using System;
 
-string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=SampleDB; Integrated Security = True";
+string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=NewDB; Integrated Security = True";
 
 string createTableQuery = @"
-                CREATE TABLE People
-                (
-                    Id INT PRIMARY KEY IDENTITY(1,1),
-                    FirstName NVARCHAR(50),
-                    LastName NVARCHAR(50),
-                    Street NVARCHAR(100),
-                    City NVARCHAR(50),
-                    PostalCode NVARCHAR(10),
-                    Pesel NVARCHAR(11),
-                    Email NVARCHAR(100)
-                )";
+            CREATE TABLE People
+            (
+                Id INT PRIMARY KEY IDENTITY(1,1),
+                FirstName NVARCHAR(50),
+                LastName NVARCHAR(50),
+                Street NVARCHAR(100),
+                City NVARCHAR(50),
+                PostalCode NVARCHAR(10),
+                Pesel NVARCHAR(11),
+                Email NVARCHAR(100)
+            )";
 
 string[] names = { "John", "Alice", "Bob" };
 string[] lastNames = { "Doe", "Smith", "Johnson" };
@@ -25,12 +26,14 @@ string[] postalCodes = { "38-200", "22-092", "01-123" };
 string[] pesels = { "12345678901", "12312312312", "11111111111" };
 string[] emails = { "Doe@john.eu", "Smith@alice.eu", "Johnson@bob.pl" };
 
+Console.WriteLine($"Polecenie SQL: {createTableQuery}");
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     connection.Open();
-    using (SqlCommand createTableCommand = new SqlCommand(createTableQuery,
-   connection))
+    // Tworzenie tabeli (jeśli nie istnieje)
+    using (SqlCommand createTableCommand = new SqlCommand(createTableQuery,connection))
     {
+        
         try
         {
             createTableCommand.ExecuteNonQuery();
@@ -42,6 +45,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         }
     }
 }
+
 
     bool m = true;
 while (m)

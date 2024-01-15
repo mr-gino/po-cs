@@ -21,3 +21,4 @@ C:\Users\mr gino\Desktop\c#labs\lab7\lab7.2\lab7.2\obj\Debug\net8.0\refint\lab7.
 C:\Users\mr gino\Desktop\c#labs\lab7\lab7.2\lab7.2\obj\Debug\net8.0\lab7.2.pdb
 C:\Users\mr gino\Desktop\c#labs\lab7\lab7.2\lab7.2\obj\Debug\net8.0\lab7.2.genruntimeconfig.cache
 C:\Users\mr gino\Desktop\c#labs\lab7\lab7.2\lab7.2\obj\Debug\net8.0\ref\lab7.2.dll
+C:\Users\mr gino\Desktop\c#labs\lab7\lab7.2\lab7.2\obj\Debug\net8.0\lab7.2.csproj.ResolveComReference.cache
